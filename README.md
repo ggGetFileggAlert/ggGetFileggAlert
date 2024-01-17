@@ -6,7 +6,7 @@ gg.toast("Please wait⏳")
 
 function EXIT()
   gg.setVisible(true)
-  gg.toast("⛔EXIT⛔")
+  gg.toast("🚫EXIT")
   gg.clearResults()
   os.exit()
 end
@@ -554,11 +554,11 @@ function hj2()
   gg.clearResults()
 end
 
-    gg.toast("Please wait ⏳")
-  gg.sleep(300)
 function HOME()
   MultiMenu = gg.choice(
-    { "💥Silent Aim💥", "🏙TP To DmZone🏙" }, nil,
+    { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
+      "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
+      "👀Ipad View(360)👀", "♥God Mode♥", "👟High Jump👟", "🚫EXIT"}, nil,
     "============================\n🗣UserName: " ..
     username ..
     "\n============================\n⏳now : " ..
@@ -588,15 +588,24 @@ function HOME()
     if MultiMenu == 14 then hj() end
     if MultiMenu == 15 then EXIT() end
   end
-  SAMPMENU = -1 
-gg.toast("Expiry Date \"@gtaOOXXnaughty\"")
+  SAMPMENU = -1
+end
+
+function checking()
+ gg.sleep(250)
+    gg.toast("Please wait ⏳")
+  gg.sleep(250)
+        if SAMPMENU == 1 then
+          HOME()
+          gg.toast(username.. " join @Silent_Aim_Pkn")
+    end
 end
 
 while (true) do
   if gg.isVisible(true) then
      SAMPMENU = 1
      gg.setVisible(false)
-     HOME()
+     checking()
  end
 end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
