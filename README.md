@@ -557,7 +557,6 @@ end
 
 
 function HOME()
-gg.toast("Please wait⏳")
   MultiMenu = gg.choice(
     { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
       "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
