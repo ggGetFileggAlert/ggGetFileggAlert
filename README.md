@@ -561,6 +561,7 @@ function hj2()
 end
 
 function HOME()
+gg.setVisible(false)
   MultiMenu = gg.choice(
     { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
       "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
