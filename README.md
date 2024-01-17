@@ -1,11 +1,16 @@
-username = 'Hello'
+username = 'yaser'
 SAMPMENU = 1
-gg.toast("Please wait⏳")
+
+gg.toast("Please wait ⏳")
+gtname()
+gg.setVisible(true)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 function EXIT()
   gg.setVisible(true)
-  gg.toast("⛔EXIT⛔")
+  gg.toast("EXIT🚫")
   gg.clearResults()
   os.exit()
 end
@@ -16,7 +21,7 @@ function silent()
     "🔫🦰SILENT【HEAD】",
     "▶️🚶🏾‍♂️SILENT【BODY】",
     "⁦⁦                            🔙『BACK』🔙",
-  }, nil, "🇮🇷[S]amp [C]heats\n 💯creator : No Pulse\n 🔰Channel : Cheaters Samp")
+  }, nil, "🇮🇷[S]amp [C]heats\n 💯creator : @No_Pulse\n 🔰Channel : @Cheaters_Samp")
   if WH1 == 1 then
     hahaha = gg.choice({
         '⌜ ᴏɴ ⌟',
@@ -116,142 +121,129 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- tpALPHA
 function tpALPHA()
-gg.setRanges(gg.REGION_C_ALLOC)
- gg.searchNumber("0.0;1.0;0.0;1,376.5;67.0859375;0.0;0.0;0.0::33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("0.0;1.0;0.0;1,376.5;67.0859375;0.0;0.0;0.0::33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   if gg.getResultCount() == 19 then
-  gg.alert("TELEPORT faild")
+    gg.alert("TELEPORT faild")
   else
-  gg.setVisible(false)
-  gg.refineNumber("1,376.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-ms = gg.getResults(n)
-for CHEATERS_SAMP = 1, n do
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 84, flags = 16, freeze = true, value = 2046.3 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 80, flags = 16, freeze = true, value = -1913.2 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 252, flags = 16, freeze = true, value = 12 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 248, flags = 16, freeze = true, value = 2046.3 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 244, flags = 16, freeze = true, value = -1913.2 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 76, flags = 16, freeze = true, value = 12 } })
-  gg.sleep(800)
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 84, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 80, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 252, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 248, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 244, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 76, flags = 16, freeze = false, value = 0 } })
-    gg.clearResults()
-  gg.loadResults(gg.getListItems())
-local t = gg.getResults(3)
-gg.removeResults(t)
- gg.removeListItems(gg.getListItems())
-
- tpStart()
+    gg.setVisible(false)
+    gg.refineNumber("1,376.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    n2 = gg.getResultCount()
+    ms2 = gg.getResults(n2)
+    for CHEATERS_SAMP = 1, n2 do
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 84, flags = 16, freeze = true, value = 2046.3 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 80, flags = 16, freeze = true, value = -1913.2 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 252, flags = 16, freeze = true, value = 12 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 248, flags = 16, freeze = true, value = 2046.3 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 244, flags = 16, freeze = true, value = -1913.2 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 76, flags = 16, freeze = true, value = 12 } })
+      gg.sleep(800)
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 84, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 80, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 252, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 248, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 244, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 76, flags = 16, freeze = false, value = 0 } })
+      gg.clearResults()
+      gg.loadResults(gg.getListItems())
+      local t2 = gg.getResults(3)
+      gg.removeResults(t2)
+      gg.removeListItems(gg.getListItems())
 
 
-
-end
-end
-end
-
-function tpStart()
-	gg.sleep(400)
-	job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400) 
-	job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(600)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    gg.toast('Cheat Activated✅')
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpss = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("2046.3;-1913.2;12", gg.TYPE_FLOAT)
+      gg.clearResults()
+      gg.toast('[' .. username .. ']' .. ' Cheat Active ✅')
+    end
+  end
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- tpFLIN
 function tpFLIN()
-gg.setRanges(gg.REGION_C_ALLOC)
- gg.searchNumber("0.0;1.0;0.0;1,376.5;67.0859375;0.0;0.0;0.0::33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("0.0;1.0;0.0;1,376.5;67.0859375;0.0;0.0;0.0::33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   if gg.getResultCount() == 19 then
-  gg.alert("TELEPORT faild")
+    gg.alert("TELEPORT faild")
   else
-  gg.setVisible(false)
-  gg.refineNumber("1,376.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-ms = gg.getResults(n)
-for CHEATERS_SAMP = 1, n do
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 84, flags = 16, freeze = true, value = 1419.16 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 80, flags = 16, freeze = true, value = -1623.57 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 252, flags = 16, freeze = true, value = 13.54 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 248, flags = 16, freeze = true, value = 2046.3 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 244, flags = 16, freeze = true, value = -1913.2 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 76, flags = 16, freeze = true, value = 12 } })
-  gg.sleep(800)
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 84, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 80, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 252, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 248, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 244, flags = 16, freeze = false, value = 0 } })
-  gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP].address - 76, flags = 16, freeze = false, value = 0 } })
-    gg.clearResults()
-  gg.loadResults(gg.getListItems())
-local t = gg.getResults(3)
-gg.removeResults(t)
- gg.removeListItems(gg.getListItems())
+    gg.setVisible(false)
+    gg.refineNumber("1,376.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    n = gg.getResultCount()
+    ms = gg.getResults(n)
+    for CHEATERS_SAMP1 = 1, n do
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 84, flags = 16, freeze = true, value = 1419.16 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 80, flags = 16, freeze = true, value = -1623.57 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 252, flags = 16, freeze = true, value = 13.54 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 248, flags = 16, freeze = true, value = 2046.3 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 244, flags = 16, freeze = true, value = -1913.2 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 76, flags = 16, freeze = true, value = 12 } })
+      gg.sleep(800)
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 84, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 80, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 252, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 248, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 244, flags = 16, freeze = false, value = 0 } })
+      gg.addListItems({ [1] = { address = ms[CHEATERS_SAMP1].address - 76, flags = 16, freeze = false, value = 0 } })
+      gg.clearResults()
+      gg.loadResults(gg.getListItems())
+      local t = gg.getResults(3)
+      gg.removeResults(t)
+      gg.removeListItems(gg.getListItems())
 
- tpStart()
+      gg.sleep(400)
+      tpff = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpff = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpff = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpff = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpff = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
+      gg.sleep(400)
+      tpff = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+      gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
 
-
-
+      gg.clearResults()
+      gg.toast('[' .. username .. ']' .. ' Cheat Active ✅')
+    end
+  end
 end
-end
-end
-
-function tpStart()
-	gg.sleep(400)
-	job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
-	gg.sleep(400) 
-	job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
-	gg.sleep(500)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    job = gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
-	gg.editAll("1419.16;-1623.57;13.54", gg.TYPE_FLOAT)
-	gg.sleep(400)
-    gg.toast('Cheat Activated✅')
-end
-
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function tpselector()
-  tpselec = gg.alert("Which one ?", "🔵AlphaRp🔵", "🟡FlinRP🟡", "🔁BACK🔁")
+  tpselec = gg.alert("Which one ?", "🟢 AlphaRp", "🟢 FlinRP", "🔁 BACK")
   if tpselec == nil then tpselector() end
   if tpselec == 1 then tpALPHA() end
   if tpselec == 2 then tpFLIN() end
@@ -553,9 +545,12 @@ function hj2()
   gg.clearResults()
 end
 
+
 function HOME()
   MultiMenu = gg.choice(
-    { "💥Silent Aim💥", "🏙TP To DmZone🏙" }, nil,
+    { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
+      "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
+      "👀Ipad View(360)👀", "♥God Mode♥", "👟High Jump👟", "🚫EXIT" }, nil,
     "============================\n🗣UserName: " ..
     username ..
     "\n============================\n⏳now : " ..
@@ -564,8 +559,11 @@ function HOME()
     os.date("%m") ..
     "/" ..
     os.date("%d") ..
-    "\n⏳Expired in :" ..
-    "\n💎Creator : [PKN] No Pulse\n🌎Channel : Cheaters Samp")
+    "\n⏳Expired in : " ..
+    tostring(Year) ..
+    "/" ..
+    tostring(Month) .. "/" .. tostring(Date) ..
+    "\n💎Creator : [PKN] @No_Pulse\n🌎Channel : @Cheaters_Samp")
   if MultiMenu == nil then
     SAMPMENU = -1
   else
@@ -585,15 +583,62 @@ function HOME()
     if MultiMenu == 14 then hj() end
     if MultiMenu == 15 then EXIT() end
   end
-  SAMPMENU = -1 
-gg.toast("Expiry Date \"@gtaOOXXnaughty\"")
+  SAMPMENU = -1
+end
+
+
+function check(t)
+    if t < 10 then t = "0" .. t end
+    return t
+  end
+
+
+function checking()
+    gg.toast("Please wait ⏳")
+
+
+    Date = 9
+    Month = 2
+    Year = 2024
+    expiremessage = "⭕Your Script Expired \n \n--> Please send message in Telegram (my id @No_Pulse) for get new version"
+  
+    expiredate = Year .. check(Month) .. check(Date)
+    date = gg.makeRequest("http://www.google.com").headers["Date"][1]
+    month = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
+
+
+    for i = 1, 12 do
+      if month[i] == string.sub(date, 9, 11) then
+        if i < 10 then
+          i = "0" .. i
+         end
+        currentdate = string.sub(date, 13, 16) .. i .. string.sub(date, 6, 7)
+         end
+    end
+    if tonumber(currentdate) >= tonumber(expiredate) then
+      gg.alert(expiremessage)
+      os.exit()
+    else
+      if ver == '3.3' then
+        if SAMPMENU == 1 then
+          HOME()
+          gg.toast(username.. " join @Cheaters_Samp")
+        end
+     else
+        gg.alert("⭕ Please use last version of LOGIN SCRIPT\n\n 💥 Download = @Cheaters_Samp (in telegram)") os.exit()
+  
+  
+         end
+    end
 end
 
 while (true) do
   if gg.isVisible(true) then
      SAMPMENU = 1
      gg.setVisible(false)
-     HOME()
- end
+     checking()
+  end
+
 end
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
