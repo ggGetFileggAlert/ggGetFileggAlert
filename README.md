@@ -592,6 +592,7 @@ function HOME()
 end
 
 function checking()
+gg.setVisible(false)
  gg.sleep(250)
     gg.toast("Please wait ⏳")
   gg.sleep(250)
