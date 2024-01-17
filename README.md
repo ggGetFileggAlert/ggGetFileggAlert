@@ -553,8 +553,6 @@ function hj2()
   gg.clearResults()
 end
 
-    gg.toast("Please wait ⏳")
-  gg.sleep(300)
 function HOME()
   MultiMenu = gg.choice(
     { "💥Silent Aim💥", "🏙TP To DmZone🏙" }, nil,
