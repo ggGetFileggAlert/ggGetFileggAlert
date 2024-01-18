@@ -561,7 +561,6 @@ function hj2()
 end
 
 function HOME()
-gg.setVisible(true)
   MultiMenu = gg.choice(
     { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
       "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
@@ -599,9 +598,9 @@ gg.setVisible(true)
 end
 
 function checking()
- gg.sleep(250)
+ gg.sleep(0)
     gg.toast("Please wait ⏳")
-  gg.sleep(250)
+  gg.sleep(0)
         if SAMPMENU == 1 then
           HOME()
           gg.toast(username.. " join @Silent_Aim_Pkn")
