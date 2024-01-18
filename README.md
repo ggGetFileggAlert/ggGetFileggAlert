@@ -1,4 +1,4 @@
-i os.date("%Y%m%d") > "20240219" then
+if os.date("%Y%m%d") > "20240219" then
 hh= gg.alert("⚠The script has expired⚠", "")
 os.exit()
 end
@@ -561,6 +561,7 @@ function hj2()
 end
 
 function HOME()
+gg.setVisible(true)
   MultiMenu = gg.choice(
     { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
       "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
