@@ -1,4 +1,4 @@
-if os.date("%Y%m%d") > "20240219" then
+i os.date("%Y%m%d") > "20240219" then
 hh= gg.alert("⚠The script has expired⚠", "")
 os.exit()
 end
