@@ -1,4 +1,4 @@
-username = '🔥Silent Aim Permanent🔥'
+username = '🔥سایلنت ایم دائم🔥'
 SAMPMENU = 1
 gg.toast("Please wait ⏳")
 gg.setVisible(true)
@@ -556,7 +556,9 @@ end
 
 function HOME()
   MultiMenu = gg.choice(
-    { "💥Silent Aim💥"}, nil,
+    { "💥Silent Aim💥", "🏙TP To DmZone🏙", "🔫GUN FOR WAR🔫", "🎭CBUG Zed Rec🎭", "🎃Slow Motion🎃",
+      "👓Fast Run👓", "💎FPS BOOST💎", "📱Wall Hack📱", "🚑GM Car🚑", "🚀Slap🚀", "👊Fast Fist👊",
+      "👀Ipad View(360)👀", "♥God Mode♥", "👟High Jump👟", "🚫EXIT"}, nil,
     "============================\n🗣UserName: " ..
     username ..
     "\n============================\n⏳now : " ..
@@ -565,7 +567,7 @@ function HOME()
     os.date("%m") ..
     "/" ..
     os.date("%d") ..
-    "\n⏳Expired in :♉VIP♉" ..
+    "\n⏳Expired in :🔴VIP🔴" ..
     "\n💎Creator : [GTA] @tpgtaiop\n🌎Channel : @Silent_Aim_Pkn")
   if MultiMenu == nil then
     SAMPMENU = -1
