@@ -1,6 +1,3 @@
-Username = "Ashix"
-Password = "kkoop"
-
 if os.date("%Y%m%d") > "20240230" then
 hh= gg.alert("⚠⚠Script expired⚠⚠")
 os.exit()
