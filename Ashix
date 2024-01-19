@@ -591,21 +591,50 @@ function HOME()
   SAMPMENU = -1
 end
 
+function check(t)
+    if t < 10 then t = "0" .. t end
+    return t
+  end
+
 function checking()
- gg.sleep(800)
+    gg.toast("Please wait ⏳")
+    
+    Date = 19
+    Month = 2
+    Year = 2024
+    expiremessage = "⭕Your Script Expired \n \n--> Please send message in Telegram (my id @tpgtaiop) for get new version"
+  
+    expiredate = Year .. check(Month) .. check(Date)
+    date = gg.makeRequest("http://www.google.com").headers["Date"][1]
+    month = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
+
+    for i = 1, 12 do
+      if month[i] == string.sub(date, 9, 11) then
+        if i < 10 then
+          i = "0" .. i
+         end
+        currentdate = string.sub(date, 13, 16) .. i .. string.sub(date, 6, 7)
+         end
+    end
+    if tonumber(currentdate) >= tonumber(expiredate) then
+      gg.alert(expiremessage)
+      os.exit()
+    else
+gg.sleep(500)
     gg.toast("Please wait ⏳")
   gg.sleep(250)
         if SAMPMENU == 1 then
           HOME()
           gg.toast(username.. " join @Silent_Aim_Pkn")
+        end  
+      end
     end
-end
 
 while (true) do
   if gg.isVisible(true) then
      SAMPMENU = 1
      gg.setVisible(false)
      checking()
- end
+  end
 end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
