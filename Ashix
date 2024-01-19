@@ -592,7 +592,7 @@ function HOME()
 end
 
 function checking()
- gg.sleep(250)
+ gg.sleep(400)
     gg.toast("Please wait ⏳")
   gg.sleep(250)
         if SAMPMENU == 1 then
