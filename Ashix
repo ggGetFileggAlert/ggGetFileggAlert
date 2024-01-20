@@ -78,6 +78,13 @@ function silentBody()
   gg.getResults(400, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.processResume()
   gg.editAll("1,0" .. tostring(range2) .. ",350,350", gg.TYPE_DWORD)
+
+  gg.searchNumber("1,042,536,202", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.processResume()
+  gg.getResults(400, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.processResume()
+  gg.editAll("1,070,300,300", gg.TYPE_DWORD)
+  
   gg.toast('[' .. username .. ']' .. " Cheat Active✅")
   gg.clearResults()
   silent()
@@ -597,7 +604,6 @@ function check(t)
   end
 
 function checking()
-    gg.toast("Please wait ⏳")
     
     Date = 19
     Month = 2
