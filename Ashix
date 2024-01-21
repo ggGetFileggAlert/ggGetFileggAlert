@@ -1,5 +1,7 @@
-username = 'gholam'
+username = 'nt'
 SAMPMENU = 1
+
+
 
 gg.toast("Please wait ⏳")
 gtname()
