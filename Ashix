@@ -1,22 +1,5 @@
 username = 'nt'
 SAMPMENU = 1
-
-gg.toast("Please wait ⏳")
-gtname()
-
-teltxtzz = '💥 NEW LOG 💥\n🟢 username = '.. username .. '\n🟢 ' .. nmegame .. " \n🟢 Server = " .. srvr.. "\n🟢 info = Use SilentAim Script"
-
-local payloadz =
-'{"UrlBox":"https://api.telegram.org/bot6280666760:AAG5QLf_rQUZb4mqavh17hO3rCGBwrBq3RY/sendMessage?chat_id=1248088712&text=' .. teltxtzz ..'","AgentList":"Internet Explorer","VersionsList":"HTTP/1.1","MethodList":"POST"}'
-recxx = gg.makeRequest("https://www.httpdebugger.com/tools/ViewHttpHeaders.aspx",
-{
-["Authorization"] = "Maybe you need an Authorization header?",
-["Content-Type"] = "application/json",
-["Content-Length"] = payloadz:len()
-},
-payloadz
-) 
-
 gg.setVisible(true)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
